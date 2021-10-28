@@ -1,0 +1,230 @@
+.container__vision {
+  width: 90%;
+  margin: auto;
+}
+
+/* Vision */
+.vision {
+  position: relative;
+  width: 100%;
+  margin-top: 90px;
+  border: 1px solid #178299;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.vision__block {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 83%;
+  bottom: 88%;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 68px;
+}
+
+.vision__block_concept__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 218px;
+  height: 73.7px;
+
+  /* padding: 10px 30px; */
+  left: 3%;
+  top: -14%;
+  background: #f4f4f4;
+}
+
+.vision__block h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  color: #1f6473;
+}
+.vision__block_concept__block h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  color: #1f6473;
+}
+
+.InsideContainerVision {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 3em 0em 3em 0em;
+}
+
+.InsideContainerConcept {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 3em 0em 3em 0em;
+}
+
+.SideImage {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ConceptSideImage {
+  width: 30%;
+  order: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vision img {
+  width: 80%;
+  /* margin: auto; */
+}
+
+.vision p {
+  /* display: inline-block; */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: justify;
+  color: #474747;
+}
+
+.concept img {
+  order: 4;
+}
+
+.Information {
+  display: flex;
+  width: 60%;
+}
+
+/* ########################################################################################## */
+
+@media screen and (max-width: 900px) {
+  .container__vision {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-bottom: 2em;
+  }
+
+  .vision {
+    position: relative;
+    /* Brand Blue */
+    border: 1px solid #178299;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+
+  .vision__block {
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    /* padding: 6px 16px; */
+    position: absolute;
+    left: 67.5%;
+    top: -5%;
+    background: #f4f4f4;
+    width: 91px;
+    height: 42px;
+  }
+
+  .vision__block_concept__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    left: 5%;
+    top: -6%;
+    background: #f4f4f4;
+    width: 114px;
+    height: 42px;
+  }
+
+  .InsideContainerVision {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+  }
+
+  .InsideContainerConcept {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+  }
+
+  .concept img {
+    order: -2;
+  }
+
+  .vision h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    /* Brand Light Blue */
+    color: #1f6473;
+  }
+
+  .vision p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+    text-align: justify;
+    /* Black 2 */
+    color: #474747;
+  }
+
+  .SideImage {
+    padding-top: 2.5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+  }
+
+  .ConceptSideImage {
+    padding-top: 2.5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    order: -1;
+  }
+  .vision img {
+    width: 100%;
+    /* margin: auto; */
+  }
+
+  .Information {
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+}

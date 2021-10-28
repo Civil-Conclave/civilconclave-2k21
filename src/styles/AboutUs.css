@@ -1,0 +1,122 @@
+.AboutUs {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  /* align-items: center; */
+  margin: auto;
+  width: 90%;
+  padding-bottom: 1.2em;
+}
+
+.AboutHeading {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  /* Brand Light Blue */
+
+  color: #1f6473;
+  margin-bottom: 1em;
+}
+
+.Box {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0em 1em 0em;
+}
+
+.Logo {
+  width: 10%;
+}
+
+.Topic {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  /* Black */
+
+  color: #262626;
+}
+.Info {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+
+  text-align: justify;
+
+  color: #6d6d6d;
+}
+
+@media (min-width: 900px) {
+  .AboutUs {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5em;
+    margin-top: 3em;
+  }
+
+  .AboutHeading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 150%;
+    color: #1f6473;
+    padding-bottom: 0.7em;
+  }
+
+  .Material {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Boxfirst {
+    display: flex;
+    flex-direction: column;
+    padding: 0em 2em 0em 0em;
+  }
+
+  .Box {
+    display: flex;
+    flex-direction: column;
+    padding: 0em 2em 0em 2em;
+  }
+
+  .Logo {
+    width: 15%;
+    padding-bottom: 1em;
+  }
+
+  .Topic {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #474747;
+    padding-bottom: 1em;
+  }
+
+  .Info {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: justify;
+
+    color: #6d6d6d;
+  }
+}

@@ -1,0 +1,112 @@
+.Conatiner {
+  width: 100%;
+}
+
+.Title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1f6473;
+  text-align: center;
+}
+
+.PresentYear {
+  text-align: center;
+}
+
+.Year {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #178299;
+}
+
+.AllSponsors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.LogoSponsor {
+  width: 25%;
+  border: 2px solid #1f6473;
+  border-radius: 5%;
+}
+.AllSponsorsRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Sponsors {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0em 1em 0em;
+}
+.ThreeSponImages {
+  display: flex;
+  justify-content: space-around;
+}
+
+.SponImages {
+  display: flex;
+  justify-content: space-around;
+}
+
+.SponType {
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .Title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    color: #1f6473;
+    text-align: left;
+  }
+
+  .PresentYear {
+    text-align: center;
+  }
+
+  .Year {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+
+    text-align: center;
+
+    /* Brand Blue */
+
+    color: #178299;
+  }
+
+  .AllSponsors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em 8em 2em 8em;
+  }
+
+  .LogoSponsor {
+    width: 20%;
+    border: 5px solid #1f6473;
+    border-radius: 10%;
+    justify-content: space-around;
+  }
+
+  .PrevYear {
+    overflow: hidden;
+  }
+}

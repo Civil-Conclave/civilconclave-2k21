@@ -1,0 +1,172 @@
+.Theme {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.TextTheme {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 1em;
+}
+.HomepageImageCon {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  /* justify-content: flex-start; */
+  /* padding-left: 3em; */
+}
+.HomepageImage {
+  width: 100%;
+}
+.CollegeName {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  /* Brand Light Blue */
+
+  color: #1f6473;
+}
+.TeamName {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 28px;
+  line-height: 150%;
+  /* or 60px */
+
+  /* Brand Light Blue */
+
+  color: #1f6473;
+}
+.Date {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  padding-bottom: 0.4em;
+  /* identical to box height, or 36px */
+
+  /* Brand Light Blue */
+
+  color: #1f6473;
+}
+.RegisterMessage {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  /* or 24px */
+
+  /* Black 2 */
+  padding-bottom: 0.5em;
+  color: #474747;
+}
+.RegisterButton {
+  background: #1f6473;
+  border-radius: 4%;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70%;
+  /* line-height: 150%; */
+  border: none;
+  text-align: center;
+
+  color: #ffffff;
+
+  padding: 0.7em 2em 0.7em 2em;
+}
+
+@media (min-width: 900px) {
+  .Theme {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 90%;
+    justify-content: space-around;
+    margin-bottom: 6em;
+  }
+  .TextTheme {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }
+
+  .RegisterButton {
+    background: #1f6473;
+    border-radius: 4%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+
+    /* White */
+
+    color: #ffffff;
+
+    padding: 0.7em 2em 0.7em 2em;
+  }
+  .HomepageImageCon {
+    width: 60%;
+  }
+  .HomepageImage {
+    width: 100%;
+  }
+  .CollegeName {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+
+    /* Brand Light Blue */
+    padding-left: 1.5px;
+
+    color: #1f6473;
+  }
+  .TeamName {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    /* padding-left: -0.4em; */
+    color: #1f6473;
+  }
+  .Date {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #1f6473;
+    padding-left: 1.5px;
+  }
+  .RegisterMessage {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    padding-bottom: 0.5em;
+    color: #474747;
+    padding-left: 1.5px;
+  }
+}

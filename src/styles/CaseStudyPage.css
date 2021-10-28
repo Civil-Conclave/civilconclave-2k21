@@ -1,0 +1,289 @@
+.tinker {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2em;
+  justify-content: space-between;
+  /* width: 40%; */
+}
+.container__casestudypage {
+  width: 90%;
+  margin: auto;
+  padding: 2em 0em 2em 0em;
+}
+.CaseStudyPageImageCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+.CaseStudyPageImage {
+  width: 100%;
+}
+
+.ConRightImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.RightImage {
+  width: 100%;
+}
+
+.tinker__left {
+  display: flex;
+  flex-direction: column;
+  order: -1;
+  width: 60%;
+  /* margin-right: 25px; */
+}
+
+.special_tinker__left {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  width: 60%;
+}
+
+.specialtinker {
+  display: flex;
+  flex-direction: column;
+  order: -1;
+}
+
+.tinker__left h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+  color: #262626;
+  text-align: left;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.tinker__left h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  /* Brand Light Blue */
+
+  color: #1f6473;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.tinker__left p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #474747;
+  margin-bottom: 2em;
+}
+
+.tinker__left button {
+  width: 193px;
+  height: 50px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  background-color: #1f6473;
+  outline: none;
+  border: none;
+  color: #ffffff;
+}
+
+.special_tinker__left button {
+  width: 193px;
+  height: 50px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  background-color: #1f6473;
+  outline: none;
+  border: none;
+  color: #ffffff;
+}
+.tinker__left a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #1f6473;
+}
+
+.special_tinker__left a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #1f6473;
+}
+
+.CaseButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.tinkerheading {
+  margin-bottom: 0.7em;
+}
+
+@media screen and (max-width: 900px) {
+  .tinkerheading {
+    /* margin-bottom: 0.7em; */
+  }
+  .tinker {
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2em;
+    /* width: 90%; */
+  }
+
+  .tinker__left {
+    display: flex;
+    width: 90%;
+    margin: auto;
+  }
+  .special_tinker__left {
+    width: 90%;
+    margin: auto;
+  }
+
+  .tinker__left h1 {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .tinker__left h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    /* Brand Light Blue */
+
+    color: #1f6473;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+
+  .special_tinker__left h1 {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .special_tinker__left p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+  }
+  .tinker__left p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    margin-block-start: 0em;
+  }
+
+  .special_tinker__left button {
+    width: 100%;
+    height: 26px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 0.5em;
+  }
+
+  .tinker__left button {
+    width: 100%;
+    height: 26px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 0.5em;
+  }
+
+  .tinker__left a {
+    font-weight: 600;
+    margin: auto;
+  }
+  .special_tinker__left a {
+    font-weight: 600;
+    margin: auto;
+  }
+
+  .design .tinker__left {
+    left: 0px;
+    top: 0px;
+  }
+  .CaseButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .CaseStudyPageImageCon {
+    width: 90%;
+    order: -1;
+    margin: auto;
+    padding-top: 2em;
+    margin-bottom: 1em;
+  }
+  .CaseStudyPageImage {
+    width: 100%;
+  }
+
+  .ConRightImage {
+    order: -1;
+    width: 90%;
+    margin: auto;
+    padding-top: 2em;
+  }
+
+  .RightImage {
+    width: 100%;
+  }
+  .special_tinker__left {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    margin: auto;
+    justify-content: center;
+  }
+}

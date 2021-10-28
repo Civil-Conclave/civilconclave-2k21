@@ -1,0 +1,196 @@
+.TeamHeading {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 32px;
+  line-height: 150%;
+  color: #1f6473;
+}
+
+.MemberRow {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
+  justify-content: space-between;
+  padding: 2em 0em 2em 0em;
+}
+.TeamMember {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+}
+.Photo {
+  /* width: 33%; */
+  margin: auto;
+}
+
+.Photos {
+  width: 100%;
+}
+
+.PhotosFour {
+  /* width: 25%; */
+  margin: auto;
+}
+
+.Names {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 150%;
+  text-align: center;
+  color: #474747;
+}
+
+.Post {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 150%;
+  /* or 24px */
+
+  text-align: center;
+
+  /* Black 2 */
+
+  color: #474747;
+}
+
+.Email {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 150%;
+  /* or 24px */
+
+  text-align: center;
+  text-decoration-line: underline;
+
+  /* Black 2 */
+
+  color: #474747;
+}
+
+@media (min-width: 700px) {
+  .TeamMember {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+  }
+  .Photo {
+    /* width: 33%; */
+    margin: auto;
+  }
+
+  .Photos {
+    width: 80%;
+  }
+
+  .PhotosFour {
+    /* width: 25%; */
+    margin: auto;
+  }
+}
+
+@media (min-width: 900px) {
+  .TeamHeading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    /* width: 80%; */
+    /* padding-left: 1em; */
+    color: #1f6473;
+    text-align: center;
+  }
+
+  .TeamWrapper {
+    margin: auto;
+    width: 100%;
+    margin-top: 3em;
+  }
+
+  .MemberRow {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 2em 0em 2em 0em;
+  }
+  .NewMemberRow {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    padding: 2em 0em 2em 0em;
+  }
+  .TeamMember {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+  }
+  .Photos {
+    width: 100;
+    margin: auto;
+  }
+
+  .PhotosThree {
+    width: 80%;
+    margin: auto;
+  }
+
+  .PhotosFour {
+    width: 80%;
+    margin: auto;
+  }
+
+  .Names {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #474747;
+  }
+
+  .Post {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    /* Black 2 */
+
+    color: #474747;
+  }
+
+  .Email {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    /* Black 2 */
+
+    color: #474747;
+  }
+}

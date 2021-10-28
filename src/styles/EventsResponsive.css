@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+
+* {
+  font-family: "Inter";
+}
+
+.EventTypebig {
+  margin-bottom: 2em;
+}
+
+.heading {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  /* Brand Light Blue */
+
+  color: #1f6473;
+
+  text-align: left;
+}
+
+.EventsResponsiveHeading h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.containerof_events {
+  width: 90%;
+  margin-bottom: 4em;
+  margin: auto;
+}
+
+.container_items {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.EventTypebig {
+  background-color: #f4f4f4;
+}
+
+.EventType {
+  display: flex;
+  flex-direction: row;
+  background-color: #f4f4f4;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+.events__images {
+  width: 100%;
+  margin-top: 0;
+  margin-right: 0.7em;
+}
+
+.ImgContainerEvents {
+  /* margin: auto; */
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.EventsInfo {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  /* padding-right: 0.2em; */
+}
+
+.EventsInfo h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+}
+.EventsInfo p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  color: #474747;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.EventsInfo a {
+  /* display: flex;
+  align-items: flex-end; */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 150%;
+  color: #178299;
+  text-align: right;
+  padding: 0.2em;
+}
+
+@media (min-width: 900px) {
+  .heading {
+    text-align: left;
+  }
+  .containerof_events {
+    width: 90%;
+    margin: 2em auto;
+  }
+  .container_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .EventType {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    width: 25%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-bottom: 1em;
+  }
+  .EventsInfo {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .EventsInfo h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    text-align: center;
+  }
+  .EventsInfo p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: justify;
+    color: #474747;
+  }
+
+  .EventsInfo a {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+
+    /* Brand Blue */
+
+    color: #178299;
+  }
+  .events__images {
+    width: 100%;
+    margin: auto;
+  }
+  .ImgContainerEvents {
+    margin: auto;
+    width: 90%;
+  }
+  .heading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    color: #1f6473;
+  }
+}

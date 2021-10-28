@@ -1,0 +1,102 @@
+.HeaderContainer {
+  background: #1f6473;
+  /* z-index: -1; */
+  padding: 2.5em 0em 2.5em 0em;
+  margin-bottom: 2em;
+}
+.Heading {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Line {
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  width: 60%;
+}
+
+.SubHeading {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.OverLap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  top: 90%;
+  left: 5%;
+  width: 90%;
+}
+
+.OverlapImage {
+  width: 140%;
+}
+
+.Parent {
+  position: relative;
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .HeaderContainer {
+    background: #1f6473;
+    z-index: -1;
+    padding: 4em 0em 4em 0em;
+  }
+  .Heading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .Line {
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    width: 25%;
+  }
+
+  .SubHeading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .OverLap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 85%;
+    left: 25%;
+    width: 50%;
+  }
+
+  .OverlapImage {
+    width: 80%;
+  }
+
+  .Parent {
+    position: relative;
+    width: 100%;
+  }
+}

@@ -1,0 +1,223 @@
+.container__eventspage {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+/* Case Study */
+
+.casestudy__eventspage {
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+  margin: auto;
+  background: #ffffff;
+  justify-content: space-between;
+  margin-bottom: 6em;
+}
+
+.EventsPageInfo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.casestudy__eventspage h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  color: #262626;
+  text-align: left;
+  margin-block-end: 0em;
+}
+.EventSummary {
+  width: 50%;
+}
+.EventsPageImageContainer {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.casestudy__eventspage img {
+  width: 100%;
+}
+
+.casestudy__eventspage h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1f6473;
+}
+
+.casestudy__eventspage p {
+  display: inline-block;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #474747;
+}
+
+.casestudy__eventspage button {
+  /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+  padding: 8px;
+  width: 140px;
+  height: 50px;
+  /* Brand Light Blue */
+  background: #1f6473;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  margin-top: 12px;
+  /* Inside Auto Layout */
+  /* flex: none;
+    order: 0;
+    flex-grow: 0;
+     */
+}
+
+.casestudy__eventspage a {
+  width: 234px;
+  height: 24px;
+  /* link-text */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* text-align: center; */
+  text-decoration-line: underline;
+  color: #1f6473;
+}
+
+.Buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* ###################################################################################### */
+
+@media screen and (max-width: 900px) {
+  .container__eventspage {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 90%;
+    margin: auto;
+  }
+  .casestudy__eventspage {
+    display: flex;
+    flex-direction: column;
+    /* White */
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2em;
+    width: 90%;
+    padding: 0 1em 0 1em;
+  }
+
+  .EventsPageInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .EventSummary {
+    width: 100%;
+  }
+
+  .EventsPageImageContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: -1;
+    padding-top: 1em;
+  }
+  .casestudy__eventspage img {
+    width: 100%;
+    padding-bottom: 0.5em;
+  }
+
+  .casestudy__eventspage h5 {
+    display: none;
+  }
+
+  .casestudy__eventspage h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    /* Black */
+    color: #262626;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 4px 0px;
+  }
+
+  .casestudy__eventspage p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    color: #474747;
+  }
+
+  .casestudy__eventspage button {
+    background: #1f6473;
+    border-radius: 4px;
+    width: 90%;
+    height: 26px;
+  }
+
+  .casestudy__eventspage a {
+    position: static;
+    width: 274px;
+    height: 14px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration-line: underline;
+    /* Brand Light Blue */
+    color: #1f6473;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 8px auto;
+  }
+  .Buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.5em;
+  }
+}

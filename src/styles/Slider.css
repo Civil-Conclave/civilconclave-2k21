@@ -1,0 +1,93 @@
+.container_slider {
+  width: 90%;
+  /* height: 500px; */
+  margin: auto;
+  margin-bottom: 3em;
+}
+
+.slick-slide {
+  /* height: 320px; */
+  /* border: 4px solid #f25634; */
+  box-sizing: border-box;
+  margin-bottom: 2em;
+}
+
+.slick-slide img {
+  height: 60%;
+  width: 60%;
+  border: 2.5px solid white;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.SponType {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: #474747;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+  z-index: 10;
+}
+
+.Year {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  text-align: center;
+
+  /* Brand Light Blue */
+
+  color: #1f6473;
+
+  margin-bottom: 1.5em;
+}
+
+.OurSponTitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  /* Brand Light Blue */
+
+  color: #1f6473;
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+@media (min-width: 900px) {
+  .OurSponTitle {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    color: #1f6473;
+    /* padding-left: 2em; */
+  }
+  .Year {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #1f6473;
+    margin-bottom: 1.5em;
+  }
+}

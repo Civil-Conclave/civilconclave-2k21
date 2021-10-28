@@ -1,0 +1,223 @@
+.ContactUsWrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2em;
+  margin: auto;
+}
+.ContactUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  padding-bottom: 1.2em;
+}
+.text-11 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 130%;
+  line-height: 150%;
+  color: #1f6473;
+}
+
+.Coordinators {
+  display: flex;
+  flex-direction: row;
+}
+
+.people {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  /* justify-content: space-between; */
+}
+
+.Images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.Image {
+  width: 100%;
+}
+.people-text-1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 9px;
+  margin-bottom: 0px;
+  line-height: 18px;
+  text-align: center;
+  /* Black 2 */
+
+  color: #474747;
+}
+.people-text {
+  /* margin-left: 15px; */
+}
+.people-text-2 {
+  margin-bottom: 0px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 18px;
+  color: #474747;
+  text-align: center;
+}
+.Name {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100%;
+  width: 95%;
+  height: 30px;
+
+  background-color: #f4f4f4;
+
+  color: #6d6d6d;
+  border: none;
+  padding-left: 5%;
+}
+.Message {
+  font-family: Inter;
+  padding-left: 5%;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100%;
+  height: 90px;
+  width: 95%;
+  border: none;
+
+  background-color: #f4f4f4;
+  color: #6d6d6d;
+}
+.Button {
+  background: #1f6473;
+  border-radius: 4%;
+  padding: 3%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70%;
+  line-height: 150%;
+  border: none;
+  text-align: center;
+
+  color: #ffffff;
+  margin-bottom: 0.5em;
+}
+
+@media (min-width: 900px) {
+  .ContactUsWrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .ContactUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 10em;
+    width: 40%;
+  }
+  .text-11 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #1f6473;
+  }
+  .Coordinators {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+  }
+
+  .people {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: flex-start;
+  }
+  .Images {
+    width: 20%;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+
+  .Image {
+    /* width: 20%; */
+  }
+  .people-text-1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80%;
+    margin-bottom: 0px;
+    line-height: 18px;
+
+    color: #474747;
+  }
+  .people-text {
+    margin-left: 15px;
+    padding-top: 5%;
+  }
+  .people-text-2 {
+    margin-bottom: 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80%;
+
+    line-height: 18px;
+
+    color: #474747;
+  }
+  .Name {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    width: 120%;
+    background-color: #f4f4f4;
+    color: #6d6d6d;
+    border: none;
+    height: 60px;
+    /* padding-left: 5%; */
+  }
+  .Message {
+    font-family: Inter;
+    padding-left: 5%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    width: 120%;
+    height: 134px;
+    border: none;
+    background-color: #f4f4f4;
+    color: #6d6d6d;
+  }
+  .Button {
+    background: #1f6473;
+    border-radius: 4%;
+    padding: 3%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70%;
+    line-height: 150%;
+    border: none;
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
