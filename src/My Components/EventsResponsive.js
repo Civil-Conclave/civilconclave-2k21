@@ -29,6 +29,7 @@ function EventsResponsive() {
               <Link to="/Events">
                 <a>Learn More</a>
               </Link>
+
             </div>
           </div>
           <div className="EventType">
