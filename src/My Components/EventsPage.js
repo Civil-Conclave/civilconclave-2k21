@@ -44,9 +44,11 @@ function EventsPage() {
               <Link to="/Register">
                 <button >REGISTER</button>
                 </Link>
-                <a href="/CaseStudy">
+                <Link to="/CaseStudy">
+                <a>
                   READ PROBLEM STATEMENTS
                 </a>
+                </Link>
               </div>
             </div>
             <div className="EventsPageImageContainer">
@@ -84,7 +86,9 @@ function EventsPage() {
                 <Link to="/Register">
                   <button >REGISTER</button>
                 </Link>
-                <a href="/Register">RULE BOOK</a>
+                <Link to="/Register">
+                  <a>RULE BOOK</a>
+                </Link>
               </div>
             </div>
             <div className="EventsPageImageContainer">

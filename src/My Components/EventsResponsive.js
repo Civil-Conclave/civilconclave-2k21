@@ -4,6 +4,7 @@ import CaseStudy from "../Website Assets/casestudyforhomepage.png";
 import GuestLectures from "../Website Assets/Guest Lectures.png";
 import ResearchWork from "../Website Assets/researchworkhome.png";
 import Seekthe from "../Website Assets/Seek the....png";
+import { Link } from "react-router-dom";
 
 function EventsResponsive() {
   return (
@@ -25,7 +26,9 @@ function EventsResponsive() {
                 the skills necessary to develop and to launch innovative
                 approaches to address the industry challenges.
               </p>
-              <a href="/Events">Learn More</a>
+              <Link to="/Events">
+                <a>Learn More</a>
+              </Link>
             </div>
           </div>
           <div className="EventType">
@@ -39,7 +42,9 @@ function EventsResponsive() {
                 pathways and networks to equip the IIT community to move
                 powerful ideas from conception to impact.
               </p>
-              <a href="/Events">Learn More</a>
+              <Link to="/Events">
+                <a>Learn More</a>
+              </Link>
             </div>
           </div>
           <div className="EventType">
@@ -53,7 +58,9 @@ function EventsResponsive() {
                 today's innovation in our industry while exploring its future
                 potential for a greater diversity of participants.
               </p>
-              <a href="/Events">Learn More</a>
+              <Link to="/Events">
+                <a>Learn More</a>
+              </Link>
             </div>
           </div>
         </div>
