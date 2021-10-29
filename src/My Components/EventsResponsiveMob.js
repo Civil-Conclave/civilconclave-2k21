@@ -43,13 +43,13 @@ function EventsResponsive() {
               </div>
               <div className="EventsInfo">
                 <p>
-                  The Case Study focuses on enhancing the help they need to
-                  build the skills necessary to develop and to launch innovative
-                  approaches to address the industry challenges.
+                  Engaging experts from across the industry to connect the
+                  varied pathways and networks to equip the IIT community to
+                  move powerful ideas from conception to impact.
                 </p>
                 <Link to="/Events">
                   <a>Learn More</a>
-              </Link>
+                </Link>
               </div>
             </div>
           </div>
@@ -63,9 +63,9 @@ function EventsResponsive() {
               </div>
               <div className="EventsInfo">
                 <p>
-                  The Case Study focuses on enhancing the help they need to
-                  build the skills necessary to develop and to launch innovative
-                  approaches to address the industry challenges.
+                  Our research work aims to provide a clear and valuable vision
+                  of today's innovation in our industry while exploring its
+                  future potential for a greater diversity of participants.
                 </p>
                 <Link to="/Events">
                   <a>Learn More</a>
