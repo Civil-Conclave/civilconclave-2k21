@@ -41,7 +41,7 @@ export const OurTeam = () => {
           <div className="PhotosThree">
             <img src={OverallCoordintorOne} alt="photo" className="Photos" />
           </div>
-          <div className="Names">Anvesh Chouhan</div>
+          <div className="Names">Anvesh Chauhan</div>
           <div className="Post">Overall Co-ordinator</div>
           <div className="Email">achauhan2@ce.iitr.ac.in</div>
         </div>
@@ -50,7 +50,7 @@ export const OurTeam = () => {
             <img src={OverallCoordintorTwo} alt="photo" className="Photos" />
           </div>
           <div className="Names">Akshat Srivastva</div>
-          <div className="Post">Overall Co-ordintor</div>
+          <div className="Post">Overall Co-coordinator</div>
           <div className="Email">asrivastava@ce.iitr.ac.in</div>
         </div>
         <div className="TeamMember">
@@ -58,7 +58,7 @@ export const OurTeam = () => {
             <img src={OverallCoordintorThree} alt="photo" className="Photos" />
           </div>
           <div className="Names">Muskan Dogra</div>
-          <div className="Post">Overall Co-ordintor</div>
+          <div className="Post">Overall Co-coordinator</div>
           <div className="Email">mdogra@ce.iitr.ac.in</div>
         </div>
       </div>
