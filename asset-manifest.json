@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/civilconclave-2k21/static/css/main.e2c8898d.chunk.css",
-    "main.js": "/civilconclave-2k21/static/js/main.76c23065.chunk.js",
-    "main.js.map": "/civilconclave-2k21/static/js/main.76c23065.chunk.js.map",
+    "main.css": "/civilconclave-2k21/static/css/main.d6ff946b.chunk.css",
+    "main.js": "/civilconclave-2k21/static/js/main.23189347.chunk.js",
+    "main.js.map": "/civilconclave-2k21/static/js/main.23189347.chunk.js.map",
     "runtime-main.js": "/civilconclave-2k21/static/js/runtime-main.567facc4.js",
     "runtime-main.js.map": "/civilconclave-2k21/static/js/runtime-main.567facc4.js.map",
     "static/css/2.dd16b31c.chunk.css": "/civilconclave-2k21/static/css/2.dd16b31c.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.fd1f8260.chunk.js.map": "/civilconclave-2k21/static/js/3.fd1f8260.chunk.js.map",
     "index.html": "/civilconclave-2k21/index.html",
     "static/css/2.dd16b31c.chunk.css.map": "/civilconclave-2k21/static/css/2.dd16b31c.chunk.css.map",
-    "static/css/main.e2c8898d.chunk.css.map": "/civilconclave-2k21/static/css/main.e2c8898d.chunk.css.map",
+    "static/css/main.d6ff946b.chunk.css.map": "/civilconclave-2k21/static/css/main.d6ff946b.chunk.css.map",
     "static/js/2.6799b80b.chunk.js.LICENSE.txt": "/civilconclave-2k21/static/js/2.6799b80b.chunk.js.LICENSE.txt",
     "static/media/Achhar.0bdd3be7.png": "/civilconclave-2k21/static/media/Achhar.0bdd3be7.png",
     "static/media/Anvesh (1).26c5e2d0.png": "/civilconclave-2k21/static/media/Anvesh (1).26c5e2d0.png",
@@ -24,6 +24,7 @@
     "static/media/Guest lec.7d3dbce7.png": "/civilconclave-2k21/static/media/Guest lec.7d3dbce7.png",
     "static/media/Harshit.39a83e9f.png": "/civilconclave-2k21/static/media/Harshit.39a83e9f.png",
     "static/media/Homepage Image Updated.464ec06d.png": "/civilconclave-2k21/static/media/Homepage Image Updated.464ec06d.png",
+    "static/media/index.css": "/civilconclave-2k21/static/media/Inter-Regular.9cd7588f.ttf",
     "static/media/Ishaan.a4dd2931.png": "/civilconclave-2k21/static/media/Ishaan.a4dd2931.png",
     "static/media/Seek the....0cc5d3e2.png": "/civilconclave-2k21/static/media/Seek the....0cc5d3e2.png",
     "static/media/aayush.3e1a69ec.png": "/civilconclave-2k21/static/media/aayush.3e1a69ec.png",
@@ -79,7 +80,7 @@
     "static/js/runtime-main.567facc4.js",
     "static/css/2.dd16b31c.chunk.css",
     "static/js/2.6799b80b.chunk.js",
-    "static/css/main.e2c8898d.chunk.css",
-    "static/js/main.76c23065.chunk.js"
+    "static/css/main.d6ff946b.chunk.css",
+    "static/js/main.23189347.chunk.js"
   ]
 }
