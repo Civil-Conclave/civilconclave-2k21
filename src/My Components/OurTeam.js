@@ -19,7 +19,7 @@ import ManagerFive from "../Website Assets/anjali.png";
 import ManagerSix from "../Website Assets/antriksh.png";
 import ManagerSeven from "../Website Assets/astuti.png";
 import ManagerEight from "../Website Assets/kanishk.png";
-import ManagerNine from "../Website Assets/kunal (1).png";
+import ManagerNine from "../Website Assets/kunal_khand.png";
 import ManagerTen from "../Website Assets/manik.png";
 import ManagerEleven from "../Website Assets/manuvansh.png";
 import ManagerTwelve from "../Website Assets/shrivardhan.png";

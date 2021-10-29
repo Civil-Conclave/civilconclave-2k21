@@ -19,7 +19,7 @@ import ManagerFive from "../Website Assets/anjali.png";
 import ManagerSix from "../Website Assets/antriksh.png";
 import ManagerSeven from "../Website Assets/astuti.png";
 import ManagerEight from "../Website Assets/kanishk.png";
-import ManagerNine from "../Website Assets/kunal.png";
+import ManagerNine from "../Website Assets/kunal_khand.png";
 import ManagerTen from "../Website Assets/manik.png";
 import ManagerEleven from "../Website Assets/manuvansh.png";
 import ManagerTwelve from "../Website Assets/shrivardhan.png";
@@ -40,7 +40,7 @@ export const OurTeamMob = () => {
           <div className="MobPhotosThree">
             <img src={OverallCoordintorOne} alt="photo" className="MobPhotos" />
           </div>
-          <div className="MobNames">Anvesh Chouhan</div>
+          <div className="MobNames">Anvesh Chauhan</div>
           <div className="MobPost">Overall Co-ordinator</div>
           <div className="MobEmail">achauhan2@ce.iitr.ac.in</div>
         </div>
