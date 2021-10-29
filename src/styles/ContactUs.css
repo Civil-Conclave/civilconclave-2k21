@@ -15,7 +15,7 @@
 .text-11 {
   font-family: Inter;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 130%;
   line-height: 150%;
   color: #1f6473;
@@ -31,7 +31,6 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 10px;
-  /* justify-content: space-between; */
 }
 
 .Images {
@@ -47,7 +46,7 @@
 .people-text-1 {
   font-family: Inter;
   font-style: normal;
-  font-weight: 1000;
+  font-weight: 400;
   font-size: 9px;
   margin-bottom: 0px;
   line-height: 18px;
@@ -63,7 +62,7 @@
   margin-bottom: 0px;
   font-family: Inter;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 8px;
   line-height: 18px;
   color: #474747;
@@ -72,7 +71,7 @@
 .Name {
   font-family: Inter;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 100%;
   width: 95%;
   height: 30px;
@@ -88,7 +87,7 @@
   padding-left: 5%;
 
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 100%;
   height: 90px;
   width: 95%;

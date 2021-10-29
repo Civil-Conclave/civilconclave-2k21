@@ -5,7 +5,7 @@ import CaseStudy from "../Website Assets/casestudyforeventpage.png";
 import ResearchWork from "../Website Assets/researchworkevents.png";
 import Seek from "../Website Assets/Seek the....png";
 import Guest from "../Website Assets/Guest lec.png";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function EventsPage() {
   function handleSubmit(e) {
@@ -41,15 +41,11 @@ function EventsPage() {
                 through co-curricular experiences on the broader level.
               </p>
               <div className="Buttons">
-              <Link to="/Register">
-                <button >REGISTER</button>
+                <Link to="/Register" className="Linkanchor">
+                  <button>REGISTER</button>
                 </Link>
                 <Link to="/CaseStudy">
-                <a>
-                <br/>
-                  READ PROBLEM STATEMENTS
-                  <br/>
-                </a>
+                  <div className="LinkStyle">READ PROBLEM STATEMENTS</div>
                 </Link>
               </div>
             </div>
@@ -85,12 +81,11 @@ function EventsPage() {
                 Award will be given in each discipline.
               </p>
               <div className="Buttons">
-                <Link to="/Register">
-                  <button >REGISTER</button>
+                <Link to="/Register" className="Linkanchor">
+                  <button>REGISTER</button>
                 </Link>
                 <Link to="/Register">
-                <br/>
-                  <a>RULE BOOK</a>
+                  <div className="LinkStyle">RULE BOOK</div>
                 </Link>
               </div>
             </div>
@@ -126,9 +121,9 @@ function EventsPage() {
                 sessions.
               </p>
               <div className="Buttons">
-              <Link to="/Register">
-                <button>FIND OUT</button>
-              </Link>
+                <Link to="/Register" className="Linkanchor">
+                  <button>FIND OUT</button>
+                </Link>
               </div>
             </div>
             <div className="EventsPageImageContainer">

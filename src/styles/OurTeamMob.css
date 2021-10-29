@@ -1,7 +1,7 @@
 .MobTeamHeading {
   font-family: Inter;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 500;
   font-size: 20px;
   line-height: 150%;
   color: #1f6473;
@@ -41,7 +41,7 @@
 .MobNames {
   font-family: Inter;
   font-style: normal;
-  font-weight: 800;
+  font-weight: normal;
   font-size: 10px;
   line-height: 150%;
   text-align: center;
@@ -51,7 +51,7 @@
 .MobPost {
   font-family: Inter;
   font-style: normal;
-  font-weight: 600;
+  font-weight: normal;
   font-size: 8px;
   line-height: 150%;
   /* or 24px */
@@ -66,7 +66,7 @@
 .MobEmail {
   font-family: Inter;
   font-style: normal;
-  font-weight: 600;
+  font-weight: normal;
   font-size: 8px;
   line-height: 150%;
   /* or 24px */

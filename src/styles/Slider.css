@@ -41,7 +41,7 @@
 .Year {
   font-family: Inter;
   font-style: normal;
-  font-weight: 1000;
+  font-weight: 600;
   font-size: 18px;
   line-height: 150%;
   /* identical to box height, or 24px */
@@ -58,7 +58,7 @@
 .OurSponTitle {
   font-family: Inter;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 20px;
   line-height: 150%;
   /* identical to box height, or 30px */
