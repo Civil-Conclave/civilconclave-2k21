@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/civilconclave-2k21/static/css/main.d6ff946b.chunk.css",
-    "main.js": "/civilconclave-2k21/static/js/main.23189347.chunk.js",
-    "main.js.map": "/civilconclave-2k21/static/js/main.23189347.chunk.js.map",
+    "main.css": "/civilconclave-2k21/static/css/main.1eff2450.chunk.css",
+    "main.js": "/civilconclave-2k21/static/js/main.3b1c572a.chunk.js",
+    "main.js.map": "/civilconclave-2k21/static/js/main.3b1c572a.chunk.js.map",
     "runtime-main.js": "/civilconclave-2k21/static/js/runtime-main.567facc4.js",
     "runtime-main.js.map": "/civilconclave-2k21/static/js/runtime-main.567facc4.js.map",
     "static/css/2.dd16b31c.chunk.css": "/civilconclave-2k21/static/css/2.dd16b31c.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.fd1f8260.chunk.js.map": "/civilconclave-2k21/static/js/3.fd1f8260.chunk.js.map",
     "index.html": "/civilconclave-2k21/index.html",
     "static/css/2.dd16b31c.chunk.css.map": "/civilconclave-2k21/static/css/2.dd16b31c.chunk.css.map",
-    "static/css/main.d6ff946b.chunk.css.map": "/civilconclave-2k21/static/css/main.d6ff946b.chunk.css.map",
+    "static/css/main.1eff2450.chunk.css.map": "/civilconclave-2k21/static/css/main.1eff2450.chunk.css.map",
     "static/js/2.6799b80b.chunk.js.LICENSE.txt": "/civilconclave-2k21/static/js/2.6799b80b.chunk.js.LICENSE.txt",
     "static/media/Achhar.0bdd3be7.png": "/civilconclave-2k21/static/media/Achhar.0bdd3be7.png",
     "static/media/Anvesh (1).26c5e2d0.png": "/civilconclave-2k21/static/media/Anvesh (1).26c5e2d0.png",
@@ -48,8 +48,8 @@
     "static/media/jatin.4274b042.png": "/civilconclave-2k21/static/media/jatin.4274b042.png",
     "static/media/kabir.db79e5cb.png": "/civilconclave-2k21/static/media/kabir.db79e5cb.png",
     "static/media/kanishk.515d1e2a.png": "/civilconclave-2k21/static/media/kanishk.515d1e2a.png",
-    "static/media/kunal (1).2599735a.png": "/civilconclave-2k21/static/media/kunal (1).2599735a.png",
     "static/media/kunal.fe96e90e.png": "/civilconclave-2k21/static/media/kunal.fe96e90e.png",
+    "static/media/kunal_khand.2599735a.png": "/civilconclave-2k21/static/media/kunal_khand.2599735a.png",
     "static/media/manik.e68fd792.png": "/civilconclave-2k21/static/media/manik.e68fd792.png",
     "static/media/manuvansh.bdc8bbd3.png": "/civilconclave-2k21/static/media/manuvansh.bdc8bbd3.png",
     "static/media/methodex.afa41cb7.png": "/civilconclave-2k21/static/media/methodex.afa41cb7.png",
@@ -80,7 +80,7 @@
     "static/js/runtime-main.567facc4.js",
     "static/css/2.dd16b31c.chunk.css",
     "static/js/2.6799b80b.chunk.js",
-    "static/css/main.d6ff946b.chunk.css",
-    "static/js/main.23189347.chunk.js"
+    "static/css/main.1eff2450.chunk.css",
+    "static/js/main.3b1c572a.chunk.js"
   ]
 }
