@@ -41,12 +41,15 @@
 }
 
 .OverlapImage {
-  width: 140%;
+  width: 100%;
 }
 
 .Parent {
   position: relative;
   width: 100%;
+}
+.Logo {
+  width: 15%;
 }
 
 @media (min-width: 900px) {
@@ -92,7 +95,7 @@
   }
 
   .OverlapImage {
-    width: 80%;
+    width: 100%;
   }
 
   .Parent {
@@ -100,6 +103,6 @@
     width: 100%;
   }
   .Logo {
-    width: 15%;
+    width: 10%;
   }
 }
