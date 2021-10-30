@@ -8,7 +8,7 @@ export const AboutUs = () => {
     <div className="AboutUs">
       <div className="AboutHeading">About Us</div>
       <div className="Material">
-        <div className="Boxfirst">
+        <div className="Box">
           <div className="ImgContainer">
             <img src={VisionLogo} alt="logo" className="Logo" />
           </div>

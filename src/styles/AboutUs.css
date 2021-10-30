@@ -73,28 +73,27 @@
     font-size: 2em;
     line-height: 150%;
     color: #1f6473;
-    padding-bottom: 0.7em;
+    margin-bottom: 0.7em;
   }
 
   .Material {
     display: flex;
     flex-direction: row;
-  }
-
-  .Boxfirst {
-    display: flex;
-    flex-direction: column;
-    padding: 0em 2em 0em 0em;
+    justify-content: space-between;
   }
 
   .Box {
     display: flex;
     flex-direction: column;
-    padding: 0em 2em 0em 2em;
+    width: 30%;
+    padding: 0em;
   }
 
-  .Logo {
+  .ImgContainer {
     width: 15%;
+  }
+  .Logo {
+    width: 100%;
     padding-bottom: 1em;
   }
 

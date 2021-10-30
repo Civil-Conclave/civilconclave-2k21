@@ -112,7 +112,7 @@ export const OurTeamMob = () => {
           <div className="MobPhotosThree">
             <img src={SeniorManagerOne} alt="photo" className="MobPhotos" />
           </div>
-          <div className="MobNames">Gurleen Singh Sandhu</div>
+          <div className="MobNames">Gurleen Singh</div>
           <div className="MobPost">Senior Manager</div>
           <div className="MobEmail">gurleen_s@ce.iitr.ac.in</div>
         </div>

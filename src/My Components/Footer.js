@@ -33,7 +33,7 @@ function Footer() {
           <div className="SocialIcons">
             <div className="SocialHandle">
               <a
-                href="https://www.facebook.com/cec.iitroorkee/"
+                href="https://www.facebook.com/civilconclave.iitr/"
                 target="_blank"
                 className="fa fa-facebook"
               >
@@ -45,7 +45,7 @@ function Footer() {
 
             <div className="SocialHandle">
               <a
-                href="https://www.instagram.com/cec_iitr/"
+                href="https://www.instagram.com/civil_conclave/"
                 className="fa fa-instagram"
                 target="_blank"
               >
@@ -57,7 +57,7 @@ function Footer() {
 
             <div className="SocialHandle">
               <a
-                href="https://www.linkedin.com/company/civil-engineering-consortium/"
+                href="https://www.linkedin.com/company/civil-conclave-iitroorkee/"
                 className="fa fa-linkedin"
                 target="_blank"
               >
