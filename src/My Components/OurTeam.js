@@ -84,7 +84,7 @@ export const OurTeam = () => {
             <img src={SponHead} alt="photo" className="Photos" />
           </div>
           <div className="Names">Kunal Singh</div>
-          <div className="Post">Sposorship Head</div>
+          <div className="Post">Sponsorship Head</div>
           <div className="Email">kunal_r@ce.iitr.ac.in</div>
         </div>
       </div>

@@ -49,7 +49,7 @@ export const OurTeamMob = () => {
             <img src={OverallCoordintorTwo} alt="photo" className="MobPhotos" />
           </div>
           <div className="MobNames">Akshat Srivastva</div>
-          <div className="MobPost">Overall Co-ordintor</div>
+          <div className="MobPost">Overall Co-ordinator</div>
           <div className="MobEmail">asrivastava@ce.iitr.ac.in</div>
         </div>
         <div className="MobTeamMember">
@@ -61,7 +61,7 @@ export const OurTeamMob = () => {
             />
           </div>
           <div className="MobNames">Muskan Dogra</div>
-          <div className="MobPost">Overall Co-ordintor</div>
+          <div className="MobPost">Overall Co-ordinator</div>
           <div className="MobEmail">mdogra@ce.iitr.ac.in</div>
         </div>
       </div>
@@ -87,7 +87,7 @@ export const OurTeamMob = () => {
             <img src={SponHead} alt="photo" className="MobPhotos" />
           </div>
           <div className="MobNames">Kunal Singh</div>
-          <div className="MobPost">Sposorship Head</div>
+          <div className="MobPost">Sponsorship Head</div>
           <div className="MobEmail">kunal_r@ce.iitr.ac.in</div>
         </div>
       </div>
