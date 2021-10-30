@@ -45,7 +45,7 @@ function CaseStudyPage() {
               <button onClick={onPress}>PROBLEM STATEMENT</button>
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/1f8H-OgzVfReuY4wZtT0J4vgInsnVpAC6/view?usp=sharing"
+                href="https://drive.google.com/file/d/1smQOXEQBMQDxUsnDeHqSzC4zKNwxzDjb/view?usp=sharing"
               >
                 RULE BOOK
               </a>
@@ -57,15 +57,15 @@ function CaseStudyPage() {
             <img src={ongc} alt="" className="RightImage" />
           </div>
           <div className="special_tinker__left">
-            <h1>Delineation of a G+1 Building</h1>
+            <h1>DELINEATION OF A G+1 BUILDING</h1>
             <h2>in association with Oil and Natural Gas Corporation Ltd. </h2>
             <p>
               With the use of technology and reuse of waste material as building
               material the cost of construction can be minimised to an extent.
               Present a technical design of a (G + 1) building which will serve
               the purpose of mess for the workers of ONGC Ltd (in MSEZ-
-              Mangalore Special Economic Zone Ltd.) and present a budget (rate
-              analysis) of the cost of its construction.
+              Mangalore Special Economic Zone Ltd.) and present a rate analysis
+              of the cost of its construction.
             </p>
             <div className="CaseButtons">
               <button onClick={onPressOngc}>PROBLEM STATEMENT</button>

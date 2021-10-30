@@ -99,4 +99,7 @@
     position: relative;
     width: 100%;
   }
+  .Logo {
+    width: 15%;
+  }
 }
