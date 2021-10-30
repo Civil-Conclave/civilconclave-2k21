@@ -10,7 +10,7 @@ export const AboutUs = () => {
       <div className="Material">
         <div className="Box">
           <div className="ImgContainer">
-            <img src={VisionLogo} alt="logo" className="Logo" />
+            <img src={VisionLogo} alt="logo" className="Logos" />
           </div>
           <div className="Topic">Vision</div>
           <div className="Info">
@@ -22,7 +22,7 @@ export const AboutUs = () => {
         </div>
         <div className="Box">
           <div className="ImgContainer">
-            <img src={ConceptLogo} alt="logo" className="Logo" />
+            <img src={ConceptLogo} alt="logo" className="Logos" />
           </div>
           <div className="Topic">Concept</div>
           <div className="Info">
@@ -34,7 +34,7 @@ export const AboutUs = () => {
         </div>
         <div className="Box">
           <div className="ImgContainer">
-            <img src={ThemeLogo} alt="logo" className="Logo" />
+            <img src={ThemeLogo} alt="logo" className="Logos" />
           </div>
           <div className="Topic">Theme</div>
           <div className="Info">
