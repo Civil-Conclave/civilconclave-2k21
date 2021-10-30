@@ -1,6 +1,7 @@
 import React from "react";
 import CaseStudy from "../Website Assets/Case Studies.png";
 import grinfra from "../Website Assets/grinfra.png";
+import ongc from "../Website Assets/ONGC_casestudy.png";
 import "../styles/CaseStudyPage.css";
 
 function CaseStudyPage() {
@@ -13,6 +14,11 @@ function CaseStudyPage() {
   function onPressRuleBookgrinfra(e) {
     window.open(
       "/https://drive.google.com/file/d/1f8H-OgzVfReuY4wZtT0J4vgInsnVpAC6/view?usp=sharing"
+    );
+  }
+  function onPressOngc(e) {
+    window.open(
+      "https://drive.google.com/file/d/1RQDvePnmQeD-df-4SdIHnWQF4gtBpsjV/view"
     );
   }
   return (
@@ -48,7 +54,7 @@ function CaseStudyPage() {
         </div>
         <div className="tinker">
           <div className="ConRightImage">
-            <img src={grinfra} alt="" className="RightImage" />
+            <img src={ongc} alt="" className="RightImage" />
           </div>
           <div className="special_tinker__left">
             <h1>Delineation of a G+1 Building</h1>
@@ -62,8 +68,11 @@ function CaseStudyPage() {
               analysis) of the cost of its construction.
             </p>
             <div className="CaseButtons">
-              <button>PROBLEM STATEMENT</button>
-              <a href="https://drive.google.com/file/d/1f8H-OgzVfReuY4wZtT0J4vgInsnVpAC6/view?usp=sharing">
+              <button onClick={onPressOngc}>PROBLEM STATEMENT</button>
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1mbqxzSZSmHyhf0hdneTWU8w5Pzo7ypoO/view"
+              >
                 RULE BOOK
               </a>
             </div>
