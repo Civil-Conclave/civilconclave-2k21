@@ -3,6 +3,7 @@ import CaseStudy from "../Website Assets/Case Studies.png";
 import grinfra from "../Website Assets/grinfra.png";
 import ongc from "../Website Assets/ONGC_casestudy.png";
 import "../styles/CaseStudyPage.css";
+import fsicase from "../Website Assets/fsicasestudy.png";
 
 function CaseStudyPage() {
   function onPress(e) {
@@ -19,6 +20,11 @@ function CaseStudyPage() {
   function onPressOngc(e) {
     window.open(
       "https://drive.google.com/file/d/1RQDvePnmQeD-df-4SdIHnWQF4gtBpsjV/view"
+    );
+  }
+  function onPressfsi(e) {
+    window.open(
+      "https://drive.google.com/file/d/1I9i55WWsZSF4RguxhQvhqMkGQgRbIcfH/view"
     );
   }
   return (
@@ -78,27 +84,32 @@ function CaseStudyPage() {
             </div>
           </div>
         </div>
-        {/* <div className="tinker">
+        <div className="tinker">
           <div className="CaseStudyPageImageCon">
-            <img src={CaseStudy} alt="" className="CaseStudyPageImage" />
+            <img src={fsicase} alt="" className="CaseStudyPageImage" />
           </div>
           <div className="tinker__left">
-            <h1>REJUVENATING RIVER GANGA</h1>
+            <h1>COMBATING FIRE</h1>
+            <h2>in association with Forest Survey of India </h2>
             <p>
-              Waterwheel, a mechanical device for tapping the energy of running
-              or falling water by means of a set of paddles mounted around a
-              wheel. The force of the moving water is exerted against the
-              paddles, and the consequent rotation of the wheel is transmitted
-              to machinery via the shaft of the wheel. Design innovative and
-              most efficient water wheel both in terms of efficiency and
-              feasibility.
+              Forest fires are a major cause of forest degradation and have
+              wide-ranging adverse ecological, economic and social impacts. Find
+              out ways for their early identification, prepare a fire simulation
+              model, estimate current fuelwood dependency of the residents on
+              forests and suggest an evacuation plan for the livestock and
+              residents of the forest.
             </p>
             <div className="CaseButtons">
-              <button>PROBLEM STATEMENT</button>
-              <a href="/">RULE BOOK</a>
+              <button onClick={onPressfsi}>PROBLEM STATEMENT</button>
+              <a
+                target="_blank "
+                href="https://drive.google.com/file/d/1ObaQz1DmQweP0AQbwqdzNIWJKtOx3RPd/view?usp=sharing"
+              >
+                RULE BOOK
+              </a>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
