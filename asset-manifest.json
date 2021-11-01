@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9a5ad895.chunk.css",
-    "main.js": "/static/js/main.2aaae9fa.chunk.js",
-    "main.js.map": "/static/js/main.2aaae9fa.chunk.js.map",
+    "main.js": "/static/js/main.f7cef32b.chunk.js",
+    "main.js.map": "/static/js/main.f7cef32b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.da9151e7.js",
     "runtime-main.js.map": "/static/js/runtime-main.da9151e7.js.map",
     "static/css/2.19627560.chunk.css": "/static/css/2.19627560.chunk.css",
@@ -44,6 +44,7 @@
     "static/media/consort.6deeebfb.png": "/static/media/consort.6deeebfb.png",
     "static/media/edufabrica.e8ca3482.png": "/static/media/edufabrica.e8ca3482.png",
     "static/media/edufabricabig.97d149f7.png": "/static/media/edufabricabig.97d149f7.png",
+    "static/media/fsicasestudy.0bd2aa01.png": "/static/media/fsicasestudy.0bd2aa01.png",
     "static/media/grinfra.19e0e274.png": "/static/media/grinfra.19e0e274.png",
     "static/media/gurleen.f78934ee.png": "/static/media/gurleen.f78934ee.png",
     "static/media/jatin.4274b042.png": "/static/media/jatin.4274b042.png",
@@ -82,6 +83,6 @@
     "static/css/2.19627560.chunk.css",
     "static/js/2.5a58d9b1.chunk.js",
     "static/css/main.9a5ad895.chunk.css",
-    "static/js/main.2aaae9fa.chunk.js"
+    "static/js/main.f7cef32b.chunk.js"
   ]
 }
