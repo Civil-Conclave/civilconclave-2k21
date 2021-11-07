@@ -13,7 +13,7 @@ export const Theme = () => {
         <div className="TeamName">Civil Conclave 2021</div>
         <div className="Date">18-19 December, 2021</div>
         <div className="RegisterMessage">
-          Unravish and explore the deeper insights with this Inter IIT fest
+          Unravish and explore the deeper insights with this <strong>Inter IIT fest </strong>
           dedicated to civil engineers. Dive right in...
           <br /> Click here to register yourself
         </div>

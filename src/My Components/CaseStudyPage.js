@@ -2,6 +2,7 @@ import React from "react";
 import CaseStudy from "../Website Assets/Case Studies.png";
 import grinfra from "../Website Assets/grinfra.png";
 import ongc from "../Website Assets/ONGC_casestudy.png";
+import tata from "../Website Assets/tatasteel_casestudy.png";
 import "../styles/CaseStudyPage.css";
 import fsicase from "../Website Assets/fsicasestudy.png";
 
@@ -22,6 +23,12 @@ function CaseStudyPage() {
       "https://drive.google.com/file/d/1RQDvePnmQeD-df-4SdIHnWQF4gtBpsjV/view"
     );
   }
+  function onPressTata(e) {
+    window.open(
+      "https://drive.google.com/file/d/16TY47fZqqNJ_alr4qGT4idzNNWtJIsim/view"
+    );
+  }
+  
   function onPressfsi(e) {
     window.open(
       "https://drive.google.com/file/d/1I9i55WWsZSF4RguxhQvhqMkGQgRbIcfH/view"
@@ -77,7 +84,7 @@ function CaseStudyPage() {
               <button onClick={onPressOngc}>PROBLEM STATEMENT</button>
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/1mbqxzSZSmHyhf0hdneTWU8w5Pzo7ypoO/view"
+                href="https://drive.google.com/file/d/1GpY9FyMHC2YtMTciRKMp1MstuKkSbPFa/view?usp=drivesdk"
               >
                 RULE BOOK
               </a>
@@ -104,6 +111,30 @@ function CaseStudyPage() {
               <a
                 target="_blank "
                 href="https://drive.google.com/file/d/1ObaQz1DmQweP0AQbwqdzNIWJKtOx3RPd/view?usp=sharing"
+              >
+                RULE BOOK
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="tinker">
+          <div className="ConRightImage">
+            <img src={tata} alt="" className="RightImage" />
+          </div>
+          <div className="special_tinker__left">
+            <h1>CONTRIVING A MID-RISE STEEL STRUCTURE</h1>
+            <h2>in association with Tata Steel Pvt. Ltd. </h2>
+            <p>
+              Design, Prepare General Arrangement drawing and develop typical shop & site connection detail
+              with bolts for a B+G+4 (B: Basement & G: Ground) storeyed steel structure office building
+              complying with the requirement of all applicable BIS. Only the basement is of RCC construction,
+              the rest (G+4) are with steel construction.
+            </p>
+            <div className="CaseButtons">
+              <button onClick={onPressTata}>PROBLEM STATEMENT</button>
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1Q6NDxSlrooPr91p8-9yXQl0kCRGF7g8Z/view?usp=drivesdk"
               >
                 RULE BOOK
               </a>
