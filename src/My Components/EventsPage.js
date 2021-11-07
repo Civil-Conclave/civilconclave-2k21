@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/EventsPage.css";
 
 import CaseStudy from "../Website Assets/casestudyforeventpage.png";
@@ -6,8 +6,11 @@ import ResearchWork from "../Website Assets/researchworkevents.png";
 import Seek from "../Website Assets/Seek the....png";
 import Guest from "../Website Assets/Guest lec.png";
 import { Link } from "react-router-dom";
+import { useSpring, animated } from "react-spring";
 
 function EventsPage() {
+  const [clicked, set] = useState(false);
+  const { scale } = useSpring({ scale: clicked ? 1.6 : 1 });
   function handleSubmit(e) {
     window.open("/GuestLecture");
   }
@@ -42,7 +45,15 @@ function EventsPage() {
               </p>
               <div className="Buttons">
                 <Link to="/Register" className="Linkanchor">
-                  <button>REGISTER</button>
+                  <animated.button
+                    onMouseDown={() => set(true)}
+                    onMouseUp={() => set(false)}
+                    style={{
+                      color: "#FFF",
+                      transform: scale.interpolate((s) => `scale(${s})`),
+                    }}
+                    children="REGISTER"
+                  />
                 </Link>
                 <Link to="/CaseStudy">
                   <div className="LinkStyle">READ PROBLEM STATEMENTS</div>
