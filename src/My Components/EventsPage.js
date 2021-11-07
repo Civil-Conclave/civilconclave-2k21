@@ -95,9 +95,12 @@ function EventsPage() {
                 <Link to="/Register" className="Linkanchor">
                   <button>REGISTER</button>
                 </Link>
-                <Link to="/Register">
+                {/* <Link to="/Register">
                   <div className="LinkStyle">RULE BOOK</div>
-                </Link>
+                </Link> */}
+                <a target="_blank " href="https://docs.google.com/document/d/1c3-PODBFkVekjR8XJNH1J1yIQg3TdoEmZvxm1DWEGMg/edit?usp=sharing">
+                  <div className="LinkStyle">RULE BOOK</div>
+                </a>
               </div>
             </div>
             <div className="EventsPageImageContainer">
