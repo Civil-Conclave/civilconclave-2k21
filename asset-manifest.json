@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.9a5ad895.chunk.css",
-    "main.js": "/static/js/main.69fbce41.chunk.js",
-    "main.js.map": "/static/js/main.69fbce41.chunk.js.map",
+    "main.js": "/static/js/main.1b6b3adf.chunk.js",
+    "main.js.map": "/static/js/main.1b6b3adf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2800198f.js",
     "runtime-main.js.map": "/static/js/runtime-main.2800198f.js.map",
     "static/css/2.19627560.chunk.css": "/static/css/2.19627560.chunk.css",
-    "static/js/2.ac8afca7.chunk.js": "/static/js/2.ac8afca7.chunk.js",
-    "static/js/2.ac8afca7.chunk.js.map": "/static/js/2.ac8afca7.chunk.js.map",
+    "static/js/2.7533a18f.chunk.js": "/static/js/2.7533a18f.chunk.js",
+    "static/js/2.7533a18f.chunk.js.map": "/static/js/2.7533a18f.chunk.js.map",
     "static/js/3.2d5a5556.chunk.js": "/static/js/3.2d5a5556.chunk.js",
     "static/js/3.2d5a5556.chunk.js.map": "/static/js/3.2d5a5556.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.19627560.chunk.css.map": "/static/css/2.19627560.chunk.css.map",
     "static/css/main.9a5ad895.chunk.css.map": "/static/css/main.9a5ad895.chunk.css.map",
-    "static/js/2.ac8afca7.chunk.js.LICENSE.txt": "/static/js/2.ac8afca7.chunk.js.LICENSE.txt",
+    "static/js/2.7533a18f.chunk.js.LICENSE.txt": "/static/js/2.7533a18f.chunk.js.LICENSE.txt",
     "static/media/Achhar.0bdd3be7.png": "/static/media/Achhar.0bdd3be7.png",
     "static/media/Anvesh (1).26c5e2d0.png": "/static/media/Anvesh (1).26c5e2d0.png",
     "static/media/Anvesh.26c5e2d0.png": "/static/media/Anvesh.26c5e2d0.png",
@@ -44,7 +44,7 @@
     "static/media/consort.6deeebfb.png": "/static/media/consort.6deeebfb.png",
     "static/media/edufabrica.e8ca3482.png": "/static/media/edufabrica.e8ca3482.png",
     "static/media/edufabricabig.97d149f7.png": "/static/media/edufabricabig.97d149f7.png",
-    "static/media/fsicasestudy.0bd2aa01.png": "/static/media/fsicasestudy.0bd2aa01.png",
+    "static/media/fsicasestudy.ff98a4eb.png": "/static/media/fsicasestudy.ff98a4eb.png",
     "static/media/grinfra.19e0e274.png": "/static/media/grinfra.19e0e274.png",
     "static/media/gurleen.f78934ee.png": "/static/media/gurleen.f78934ee.png",
     "static/media/jatin.4274b042.png": "/static/media/jatin.4274b042.png",
@@ -69,6 +69,7 @@
     "static/media/smriti.8a55a2d0.png": "/static/media/smriti.8a55a2d0.png",
     "static/media/sneha.ff4ee758.png": "/static/media/sneha.ff4ee758.png",
     "static/media/tata steel.ba5c9e8b.png": "/static/media/tata steel.ba5c9e8b.png",
+    "static/media/tatasteel_casestudy.1d03b933.png": "/static/media/tatasteel_casestudy.1d03b933.png",
     "static/media/tatasteelbig.db3b942a.png": "/static/media/tatasteelbig.db3b942a.png",
     "static/media/theme image.70d4ebf1.png": "/static/media/theme image.70d4ebf1.png",
     "static/media/unnati.f61f4bed.png": "/static/media/unnati.f61f4bed.png",
@@ -81,8 +82,8 @@
   "entrypoints": [
     "static/js/runtime-main.2800198f.js",
     "static/css/2.19627560.chunk.css",
-    "static/js/2.ac8afca7.chunk.js",
+    "static/js/2.7533a18f.chunk.js",
     "static/css/main.9a5ad895.chunk.css",
-    "static/js/main.69fbce41.chunk.js"
+    "static/js/main.1b6b3adf.chunk.js"
   ]
 }
