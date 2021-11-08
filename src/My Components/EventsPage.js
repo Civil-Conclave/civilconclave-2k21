@@ -98,7 +98,7 @@ function EventsPage() {
                 {/* <Link to="/Register">
                   <div className="LinkStyle">RULE BOOK</div>
                 </Link> */}
-                <a target="_blank " href="https://docs.google.com/document/d/1c3-PODBFkVekjR8XJNH1J1yIQg3TdoEmZvxm1DWEGMg/edit?usp=sharing">
+                <a target="_blank " href="https://drive.google.com/file/d/1FeokDjE2GpYxcIhIm-mhwVK4CN5oEL_W/view?usp=sharing">
                   <div className="LinkStyle">RULE BOOK</div>
                 </a>
               </div>
