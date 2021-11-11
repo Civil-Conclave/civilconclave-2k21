@@ -67,15 +67,15 @@ function RightNavMob(props: Props) {
         >
        <S.Li>About Us</S.Li>
         </Link>
-        <NavLink
-          to="/Register"
+        <a
+          href="https://drive.google.com/file/d/1sqA7MmQO77M5YHto0KEHdWeH88wX7FVh/view"
+          target="_blank"
           activeStyle={{
             color: "#178299",
           }}
         >
           <S.Li>Register</S.Li>
-
-        </NavLink>
+        </a>
         <NavLink
           to="/CaseStudy"
           activeStyle={{

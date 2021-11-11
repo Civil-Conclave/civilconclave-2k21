@@ -77,8 +77,8 @@ function RightNav(props: Props) {
             >
               <S.Li>About Us</S.Li>
             </NavLink>
-            <Link
-              onClick={onPress}
+            <a
+              href="https://drive.google.com/file/d/1sqA7MmQO77M5YHto0KEHdWeH88wX7FVh/view"
               target="_blank"
               activeStyle={{
                 color: "#178299",
@@ -86,7 +86,7 @@ function RightNav(props: Props) {
               }}
             >
               <S.Li>Register</S.Li>
-            </Link>
+            </a>
             <NavLink
               to="/CaseStudy"
               activeStyle={{
