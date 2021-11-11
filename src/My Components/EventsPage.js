@@ -15,7 +15,7 @@ function EventsPage() {
     window.open("/GuestLecture");
   }
   function onPress(e) {
-    window.open("/Register");
+    window.open("https://drive.google.com/file/d/1sqA7MmQO77M5YHto0KEHdWeH88wX7FVh/view");
   }
   return (
     <div>
@@ -44,17 +44,10 @@ function EventsPage() {
                 through co-curricular experiences on the broader level.
               </p>
               <div className="Buttons">
-                <Link to="/Register" className="Linkanchor">
-                  <animated.button
-                    onMouseDown={() => set(true)}
-                    onMouseUp={() => set(false)}
-                    style={{
-                      color: "#FFF",
-                      transform: scale.interpolate((s) => `scale(${s})`),
-                    }}
-                    children="REGISTER"
-                  />
-                </Link>
+                <div className="Linkanchor">
+                  <button
+                    onClick={onPress}>Register</button>
+                </div>
                 <Link to="/CaseStudy">
                   <div className="LinkStyle">READ PROBLEM STATEMENTS</div>
                 </Link>
@@ -92,9 +85,9 @@ function EventsPage() {
                 Award will be given in each discipline.
               </p>
               <div className="Buttons">
-                <Link to="/Register" className="Linkanchor">
-                  <button>REGISTER</button>
-                </Link>
+                <div className="Linkanchor">
+                  <button onClick={onPress}>REGISTER</button>
+                </div>
                 {/* <Link to="/Register">
                   <div className="LinkStyle">RULE BOOK</div>
                 </Link> */}

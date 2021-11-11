@@ -30,6 +30,7 @@ import {
   Switch,
   Route,
   NavLink,
+  Link,
   Redirect,
 } from "react-router-dom";
 
@@ -43,6 +44,9 @@ const activeTab = (history, path) => {
 };
 
 function RightNav(props: Props) {
+    function onPress(e) {
+    window.open("https://drive.google.com/file/d/1sqA7MmQO77M5YHto0KEHdWeH88wX7FVh/view");
+  }
   return (
     <div>
       <div>
@@ -73,15 +77,16 @@ function RightNav(props: Props) {
             >
               <S.Li>About Us</S.Li>
             </NavLink>
-            <NavLink
-              to="/Register"
+            <Link
+              onClick={onPress}
+              target="_blank"
               activeStyle={{
                 color: "#178299",
                 textDecoration: "underline",
               }}
             >
               <S.Li>Register</S.Li>
-            </NavLink>
+            </Link>
             <NavLink
               to="/CaseStudy"
               activeStyle={{
@@ -177,7 +182,7 @@ function RightNav(props: Props) {
               }}
             ></Route>
 
-            {/* <Redirect to="/" /> */}
+            <Redirect to="/" /> 
           </Switch>
         </Router>
       </div>

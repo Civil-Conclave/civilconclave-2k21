@@ -6,6 +6,9 @@ export const Theme = () => {
   function handleSubmit(e) {
     window.open("/Register");
   }
+  function onPress(e) {
+    window.open("https://drive.google.com/file/d/1sqA7MmQO77M5YHto0KEHdWeH88wX7FVh/view");
+  }
   return (
     <div className="Theme">
       <div className="TextTheme">
@@ -18,9 +21,9 @@ export const Theme = () => {
           <br /> Click here to register yourself
         </div>
         <div>
-          <Link to="/Register">
-            <button className="RegisterButton">Register</button>
-          </Link>
+          <div>
+            <button className="RegisterButton" onClick={onPress}>Register</button>
+          </div>
         </div>
       </div>
       <div className="HomepageImageCon">

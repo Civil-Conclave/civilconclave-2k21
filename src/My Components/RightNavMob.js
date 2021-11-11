@@ -26,6 +26,7 @@ import {
   Switch,
   Route,
   NavLink,
+  Link,
   Redirect,
 } from "react-router-dom";
 import { HeaderCaseStudy } from "./HeaderCaseStudy";
@@ -36,6 +37,9 @@ type Props = {
 };
 
 function RightNavMob(props: Props) {
+    function onPress(e) {
+    window.open("https://drive.google.com/file/d/1sqA7MmQO77M5YHto0KEHdWeH88wX7FVh/view");
+  }
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <S.Ul open={props.open}>
@@ -55,14 +59,14 @@ function RightNavMob(props: Props) {
         >
           <S.Li>Events</S.Li>
         </NavLink>
-        <NavLink
-          to="/AboutUs"
+        <Link
+          onClick={onPress}
           activeStyle={{
             color: "#178299",
           }}
         >
-          <S.Li>About Us</S.Li>
-        </NavLink>
+       <S.Li>About Us</S.Li>
+        </Link>
         <NavLink
           to="/Register"
           activeStyle={{
@@ -70,6 +74,7 @@ function RightNavMob(props: Props) {
           }}
         >
           <S.Li>Register</S.Li>
+
         </NavLink>
         <NavLink
           to="/CaseStudy"
