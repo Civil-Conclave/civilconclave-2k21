@@ -59,21 +59,18 @@ function RightNavMob(props: Props) {
         >
           <S.Li>Events</S.Li>
         </NavLink>
-        <Link
-          onClick={onPress}
+        <NavLink
+          to="/AboutUs"
           activeStyle={{
             color: "#178299",
           }}
         >
-       <S.Li>About Us</S.Li>
-        </Link>
-        <a
-          href="https://drive.google.com/file/d/1sqA7MmQO77M5YHto0KEHdWeH88wX7FVh/view"
-          target="_blank"
+          <S.Li>About Us</S.Li>
+        </NavLink>
+        <a href="https://drive.google.com/file/d/1sqA7MmQO77M5YHto0KEHdWeH88wX7FVh/view" target="_blank"
           activeStyle={{
             color: "#178299",
-          }}
-        >
+          }}>
           <S.Li>Register</S.Li>
         </a>
         <NavLink
