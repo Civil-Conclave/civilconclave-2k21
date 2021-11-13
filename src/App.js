@@ -4,6 +4,7 @@ import { OurTeam } from "./My Components/OurTeam";
 import { AboutUs } from "./My Components/AboutUs";
 import Footer from "./My Components/Footer";
 import ContactUs from "./My Components/ContactUs";
+import ContactUsFinal from "./My Components/ContactUsFinal";
 import { HeaderAboutUs } from "./My Components/HeaderAboutUs";
 import { HeaderEvents } from "./My Components/HeaderEvents";
 import { Sponsors } from "./My Components/Sponsors";
@@ -67,7 +68,7 @@ class App extends React.Component {
                 ></Route>
               </Switch>
             </Router> */}
-            <ContactUs></ContactUs>
+            <ContactUsFinal></ContactUsFinal>
             <Footer></Footer>
           </div>
         ) : (
@@ -88,7 +89,7 @@ class App extends React.Component {
                 ></Route>
               </Switch>
 
-              <ContactUs></ContactUs>
+              <ContactUsFinal></ContactUsFinal>
               <Footer></Footer>
             </Router>
           </div>

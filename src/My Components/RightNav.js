@@ -9,6 +9,8 @@ import { OurTeam } from "./OurTeam";
 import { AboutUs } from "./AboutUs";
 import Footer from "./Footer";
 import ContactUs from "./ContactUs";
+import ContactUsFinal from "./ContactUsFinal";
+
 import { HeaderAboutUs } from "./HeaderAboutUs";
 import { HeaderEvents } from "./HeaderEvents";
 import { HeaderCaseStudy } from "./HeaderCaseStudy";
@@ -44,19 +46,17 @@ const activeTab = (history, path) => {
 };
 
 function RightNav(props: Props) {
-    function onPress(e) {
-    window.open("https://drive.google.com/file/d/1sqA7MmQO77M5YHto0KEHdWeH88wX7FVh/view");
+  function onPress(e) {
+    window.open(
+      "https://drive.google.com/file/d/1sqA7MmQO77M5YHto0KEHdWeH88wX7FVh/view"
+    );
   }
   return (
     <div>
       <div>
         <Router basename={process.env.PUBLIC_URL}>
           <S.Ul open={props.open}>
-            <NavLink
-              to="/"
-              activeStyle={{
-              }}
-            >
+            <NavLink to="/" activeStyle={{}}>
               <S.Li>Home</S.Li>
             </NavLink>
             <NavLink
@@ -77,11 +77,14 @@ function RightNav(props: Props) {
             >
               <S.Li>About Us</S.Li>
             </NavLink>
-            <a href="https://drive.google.com/file/d/1sqA7MmQO77M5YHto0KEHdWeH88wX7FVh/view" target="_blank"
+            <a
+              href="https://drive.google.com/file/d/1sqA7MmQO77M5YHto0KEHdWeH88wX7FVh/view"
+              target="_blank"
               activeStyle={{
                 color: "#178299",
                 textDecoration: "underline",
-              }}>
+              }}
+            >
               <S.Li>Register</S.Li>
             </a>
             <NavLink
@@ -179,7 +182,7 @@ function RightNav(props: Props) {
               }}
             ></Route>
 
-            <Redirect to="/" /> 
+            <Redirect to="/" />
           </Switch>
         </Router>
       </div>
