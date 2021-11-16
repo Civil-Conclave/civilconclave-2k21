@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import * as S from "../styles/nav.ts";
 
 import Logo from "../Website Assets/Logo2.png";
@@ -37,14 +37,19 @@ type Props = {
 };
 
 function RightNavMob(props: Props) {
-    function onPress(e) {
-    window.open("https://drive.google.com/file/d/1sqA7MmQO77M5YHto0KEHdWeH88wX7FVh/view");
-  }
+  const [Input, setInput] = useState("");
+
+  const onSearchSubmit = () => {
+    setInput(false);
+    props.onSubmit(Input);
+  };
+
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <S.Ul open={props.open}>
         <NavLink
           to="/"
+          onClick={onSearchSubmit}
           activeStyle={{
             color: "#178299",
           }}
@@ -53,6 +58,7 @@ function RightNavMob(props: Props) {
         </NavLink>
         <NavLink
           to="/Events"
+          onClick={onSearchSubmit}
           activeStyle={{
             color: "#178299",
           }}
@@ -61,16 +67,20 @@ function RightNavMob(props: Props) {
         </NavLink>
         <NavLink
           to="/AboutUs"
+          onClick={onSearchSubmit}
           activeStyle={{
             color: "#178299",
           }}
         >
           <S.Li>About Us</S.Li>
         </NavLink>
-        <a href="https://drive.google.com/file/d/1sqA7MmQO77M5YHto0KEHdWeH88wX7FVh/view" target="_blank"
+        <a
+          href="https://drive.google.com/file/d/1sqA7MmQO77M5YHto0KEHdWeH88wX7FVh/view"
+          target="_blank"
           activeStyle={{
             color: "#178299",
-          }}>
+          }}
+        >
           <S.Li>Register</S.Li>
         </a>
         <NavLink

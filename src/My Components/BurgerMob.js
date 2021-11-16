@@ -13,7 +13,7 @@ const BurgerMob = () => {
         <div />
         <div />
       </S.StyledBurger>
-      <RightNavMob open={open} />
+      <RightNavMob open={open} onSubmit={setOpen} />
     </>
   );
 };
