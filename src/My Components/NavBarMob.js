@@ -1,7 +1,7 @@
 import React from "react";
 import * as S from "../styles/nav.ts";
 
-import Logo from "../Website Assets/Logo.png";
+import Logo from "../Website Assets/logonew.png";
 import BurgerMob from "./BurgerMob";
 
 type Props = {

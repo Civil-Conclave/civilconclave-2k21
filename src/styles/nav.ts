@@ -41,24 +41,25 @@ export const StyledBurger = styled.div<INav>`
   }
 `;
 export const Menus = styled.div<INav>`
-    width: 2rem;
-    height: 0.25rem;
-    background-color: #000;
-    border-radius: 10px;
-    transform-origin: 1px;
-    transition: all 0.3s linear;
-    cursor: pointer;
-    &:nth-child(1) {
-      transform: ${(props) => props.open ? 'rotate(45deg)' : 'rotate(0)'};
-    }
-    &:nth-child(2) {
-      transform: ${(props) => props.open ? 'translateX(100%)' : 'translateX(0)'};
-      opacity: ${(props) => props.open ? 0 : 1};
-    }
-    &:nth-child(3) {
-      transform: ${(props) => props.open ? 'rotate(-45deg)' : 'rotate(0)'};
-    }
-`
+  width: 2rem;
+  height: 0.25rem;
+  background-color: #000;
+  border-radius: 10px;
+  transform-origin: 1px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  &:nth-child(1) {
+    transform: ${(props) => (props.open ? "rotate(45deg)" : "rotate(0)")};
+  }
+  &:nth-child(2) {
+    transform: ${(props) =>
+      props.open ? "translateX(100%)" : "translateX(0)"};
+    opacity: ${(props) => (props.open ? 0 : 1)};
+  }
+  &:nth-child(3) {
+    transform: ${(props) => (props.open ? "rotate(-45deg)" : "rotate(0)")};
+  }
+`;
 export const Nav = styled.nav`
   height: 100%;
   display: flex;
@@ -89,24 +90,22 @@ export const Ul = styled.ul<INav>`
   flex-flow: row nowrap;
   position: absolute;
   width: 90%;
-  top: 0;
+  top: -3%;
   justify-content: flex-end;
-  margin-top: -20px;
   align-items: center;
   font-size: 18px;
   height: 110px;
   margin-left: 20px;
   a {
-      text-decoration: none;
-      text-transform: none;
-      color: #000;
-      cursor: pointer;
-      &:hover {
-        color: #178299;
-        text-decoration: underline;
+    text-decoration: none;
+    text-transform: none;
+    color: #000;
+    cursor: pointer;
+    &:hover {
+      color: #178299;
+      text-decoration: underline;
     }
   }
-  
 
   @media (max-width: 768px) {
     flex-flow: column nowrap;
@@ -135,9 +134,9 @@ export const Ul = styled.ul<INav>`
   }
 `;
 export const Logo = styled.img`
-  margin: 20px 50px 20px 7%;
-  width: 80px;
-  height: 35px;
+  margin: 0px 50px 0px 5%;
+  width: 150px;
+  height: 100px;
   object-fit: contain;
 
   @media (max-width: 1250px) {
@@ -167,5 +166,5 @@ export const Li = styled.li`
     &:hover {
       color: #178299;
     }
-}
-`
+  }
+`;
