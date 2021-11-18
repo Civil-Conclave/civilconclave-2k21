@@ -134,15 +134,15 @@ export const Ul = styled.ul<INav>`
   }
 `;
 export const Logo = styled.img`
-  margin: 0px 50px 0px 5%;
+  margin: 0px 50px 0px 4%;
   width: 150px;
   height: 100px;
   object-fit: contain;
 
   @media (max-width: 1250px) {
-    margin: 20px 50px 20px 5%;
-    width: 80px;
-    height: 35px;
+    margin: 20px 50px 20px 2%;
+    width: 100px;
+    height: 50px;
   }
 `;
 
