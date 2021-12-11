@@ -17,6 +17,8 @@ import Grill from "../Website Assets/Gril.png";
 import Fsi from "../Website Assets/FSI.png";
 import ongc from "../Website Assets/ongc.png";
 import edufabricabig from "../Website Assets/edufabricabig.png";
+import sail from "../Website Assets/sail.png";
+
 // import styled, { createGlobalStyle } from "styled-components";
 
 function SampleNextArrow(props) {
@@ -106,6 +108,10 @@ class SimpleSlider extends Component {
         <div className="OurSponTitle">Our Sponsors</div>
         <div className="Year">2021</div>
         <Slider {...settings}>
+          <div>
+            <img src={sail} alt="Bentley" />
+            <div className="SponType">Title Sponsor</div>
+          </div>
           <div>
             <img src={Bentley} alt="Bentley" />
             <div className="SponType">Technical Partner</div>
